@@ -1,0 +1,66 @@
+body{
+    background-color: grey; 
+font-family: 'Lobster', cursive;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Fruktur&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Fruktur&family=Lobster&display=swap');
+
+  .in{
+    background-color: gold;
+    width: 30vw;
+    height: 5vh;
+    border: 0.2vw rgb(29, 29, 29) solid;
+    font-size: 2vw;
+  }
+  .bu{
+    border: 0.2vw rgb(29, 29, 29) solid;
+    background-color: gold;
+    font-size: 2vw;
+    width: 10vh;
+    cursor:pointer;
+    height: 5.90vh;
+  }
+  
+  .delete-button{
+    border: 0.15vw rgb(29, 29, 29) solid;
+    background-color: rgb(220, 80, 80); 
+    margin-top: 1vw;
+    margin-left: 1vw;
+    margin-bottom: 1vw;
+    width: 2vw;
+    height: 2vw;
+    cursor:pointer;
+    font-size: 0.9vw;
+  }
+  
+  .check-button{
+    border: 0.15vw rgb(29, 29, 29) solid;
+    background-color: rgb(80, 220, 80); 
+    margin-top: 1vw;
+    margin-left: 0.5vw;
+    margin-bottom: 1vw;
+    width: 2vw;
+    cursor:pointer;
+    height: 2vw;
+    font-size: 0.9vw;
+  }
+  .row{
+      display: flex;
+      flex-direction: row;
+      margin-top: 5vh;
+  }
+  .column{
+    display: flex;
+    flex-direction: column;
+  }
+  .right{
+    color:khaki;
+    font-size: 2vw;
+    font-family: 'Fruktur', cursive;
+      width: 50%;
+      margin-top: 50px;
+      margin-left: 10vw;
+      margin-right: 2vw;
+  }
